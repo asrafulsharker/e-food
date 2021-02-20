@@ -1,0 +1,45 @@
+.main-div-booking{
+    background:url(../images/vagitable.png) no-repeat;
+    background-color:#FFF5EC;
+}
+
+
+.middle-booking{
+    background:white;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.booking-search{
+    position: relative;
+    width: 544px;
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 30px 2px #FFF5EC;
+    border:0 ;
+    outline: none;
+    padding:0px 0px 0px 20px;
+    font-size: 25px;
+}
+
+.booking-search-btn{
+    position: absolute;
+    background: #FE043C;
+    border:0;
+    width: 128px;
+    height: 80px;
+    color:white;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    align-items: center;
+    text-transform: uppercase;
+    margin-left:-130px;
+}
+
+.date-time{
+    height:50px !important;
+    outline: none;
+    border:0;
+    cursor: pointer;
+}

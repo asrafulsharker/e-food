@@ -1,0 +1,46 @@
+.card-img-rated{
+    position: relative;
+    width:100%;
+}
+.card-box-rated{
+    position:absolute;
+    background-color: rgb(255, 49, 100);
+    margin-top:-150px;
+    width:92.3%;
+    opacity:.8;
+    padding:15px 15px 0px 15px;
+    line-height:12px;
+    color:white;
+    /* font-weight: bold; */
+    border-radius: 0px 0px 10px 10px
+}
+.book-now{
+    background-color: white;
+    color:red;
+    padding:10px 10px 10px 10px;
+    width:40%;
+    border-radius: 15px 0px 0px 15px;
+    text-align:center;
+    opacity:1;
+    cursor: pointer;
+}
+.arrow-icon{
+    border-radius: 50%;
+    font-size:35px;
+    background-color:red;
+    padding:2px;
+    color:white;
+    border-left:1px solid red;
+    position:absolute;
+    margin-top:-16px;
+    margin-left:50px;
+    font-weight: bold;
+    cursor:pointer;
+}
+.border-arrow{
+    background-color:red;
+    height:3px;
+    width:80px;
+    position:relative;
+    
+}
