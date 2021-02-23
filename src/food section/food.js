@@ -10,13 +10,13 @@ import './food.css';
 function food() {
     return (
         <div>
-            <div className="container">
+            <div className="container" style={{padding:"50px 0px 50px 0px",background:"#FFF5EC"}}>
                 <p className="food-p">Explore Our Foods</p>
-                <p className="food-sm-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing cursus auctor eget sed phasellus senectus. Ut tellus donec vestibulum tristique leo bibendum in a, tincidunt. Volutpat metus id amet.</p>
-                <div className="row">
-                    <div className="col-md-4" style={{padding:"50px 5px 50px 5px"}}>
-                    <Card className="food-card " >
-                    <Card.Img variant="top" src={Food1} />
+                <p className="food-sm-p m-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing cursus auctor eget sed phasellus senectus. Ut tellus donec vestibulum tristique leo bibendum in a, tincidunt. Volutpat metus id amet.</p>
+                <div className="row" style={{padding:"10px 0px 0px 0px"}}>
+                    <div className="col-md-4" style={{padding:"10px 5px 10px 5px"}}>
+                    <Card className="food-card " style={{borderRadius:"16px"}}>
+                    <Card.Img variant="top" src={Food1}  />
                     <Card.Body>
                         <div className="row" style={{padding:"0px 15px"}}>
                             <p style={{color:"#2E266F",fontWeight:"500",fontSize:"24px",lineHeight:"32px"}}>Hand Sandwich</p>
@@ -28,8 +28,8 @@ function food() {
                     </Card.Body>
                 </Card>
                     </div>
-                    <div className="col-md-4" style={{padding:"50px 5px 50px 5px"}}>
-                    <Card className="food-card " >
+                    <div className="col-md-4" style={{padding:"10px 5px 10px 5px"}}>
+                    <Card className="food-card " style={{borderRadius:"16px"}}>
                     <Card.Img variant="top" src={Food2} />
                     <Card.Body>
                         <div className="row" style={{padding:"0px 15px"}}>
@@ -42,8 +42,8 @@ function food() {
                     </Card.Body>
                 </Card>
                     </div>
-                    <div className="col-md-4" style={{padding:"50px 5px 50px 5px"}}>
-                    <Card className="food-card " >
+                    <div className="col-md-4" style={{padding:"10px 5px 10px 5px"}}>
+                    <Card className="food-card " style={{borderRadius:"16px"}}>
                     <Card.Img variant="top" src={Food3} />
                     <Card.Body>
                         <div className="row" style={{padding:"0px 15px"}}>
@@ -57,7 +57,7 @@ function food() {
                 </Card>
                     </div>
                     <div className="col-md-4" style={{padding:"10px 5px 10px 5px"}}>
-                    <Card className="food-card " >
+                    <Card className="food-card " style={{borderRadius:"16px"}}>
                     <Card.Img variant="top" src={Food4} />
                     <Card.Body>
                         <div className="row" style={{padding:"0px 15px"}}>
@@ -71,7 +71,7 @@ function food() {
                 </Card>
                     </div>
                     <div className="col-md-4" style={{padding:"10px 5px 10px 5px"}}>
-                    <Card className="food-card " >
+                    <Card className="food-card " style={{borderRadius:"16px"}}>
                     <Card.Img variant="top" src={Food5} />
                     <Card.Body>
                         <div className="row" style={{padding:"0px 15px"}}>
@@ -85,7 +85,7 @@ function food() {
                 </Card>
                     </div>
                     <div className="col-md-4" style={{padding:"10px 5px 10px 5px"}}>
-                    <Card className="food-card " >
+                    <Card className="food-card " style={{borderRadius:"16px"}}>
                     <Card.Img variant="top" src={Food6} />
                     <Card.Body>
                         <div className="row" style={{padding:"0px 15px"}}>

@@ -7,6 +7,8 @@ import Top from '../top-restautant/top';
 import Booking from '../booking/booking';
 import Food from '../food section/food';
 import Explore_Food from '../explore_food/explore';
+import App_Section from '../app-section/app';
+import Footer from '../footer/footer';
 function home() {
     return (
         <div className="back">
@@ -16,6 +18,8 @@ function home() {
             <Booking/>
             <Food/>
             <Explore_Food/>
+            <App_Section/>
+            <Footer/>
         </div>
         </div>
 

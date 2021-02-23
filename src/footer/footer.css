@@ -1,0 +1,43 @@
+.footer-div{
+    /* background:url(../images/footer-bg.png ) no-repeat; */
+}
+.footer-input{
+    background: #FFFFFF;
+    box-shadow: 2px 2px 30px 2px #FFF5EC;
+    border-radius: 100px;
+    position: relative;
+    width: 100%;
+    height: 90px;
+    outline:none;
+    border: 0;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2E266F;
+}
+.footer-input-btn{
+    background: #FE043C;
+    border-radius: 50%;
+    border:0;
+    color: #FFFFFF;
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    margin-left: -80px;
+    margin-top: 17px;
+}
+.footer-link{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #707070;
+    padding: 20px 5px 20px 5px;
+    text-decoration: none;
+}
