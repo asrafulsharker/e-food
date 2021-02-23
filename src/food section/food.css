@@ -34,3 +34,10 @@
         height:140px !important;
     }
   }
+  @media only screen and (max-width: 960px) {
+    .food-sm-p{
+        width: 315px !important;
+        padding-bottom: 20px !important;
+        height:140px !important;
+    }
+  }

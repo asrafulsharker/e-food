@@ -60,3 +60,21 @@
         font-size: 25px !important;
     }
   }
+  @media only screen and (max-width: 960px) {
+    .footer-input{
+        height:60px !important;
+    }
+    .footer-input-btn{
+        width:35px !important;
+        height: 35px !important;
+        margin-top: 11px !important;
+        margin-left: -55px !important;
+    
+    }
+    .footer-arrow{
+        font-size: 27px !important;
+    }
+    .footer-top-p{
+        font-size: 25px !important;
+    }
+  }

@@ -10,3 +10,11 @@
         margin:auto auto !important;
     }
   }
+  @media only screen and (max-width: 960px) {
+    .nav-link{
+        text-align: center !important;
+    }
+    .dropdown{
+        margin:auto auto !important;
+    }
+  }

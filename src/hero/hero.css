@@ -60,3 +60,18 @@
         width: 50px !important;
     }
   }
+  @media only screen and (max-width: 960px) {
+    .food-p1{
+        font-size: 100px !important;
+    }
+    .food-p2{
+        font-size: 51px !important;
+        line-height: 65px !important;
+    }
+    .input-search {
+        width: 260px !important;
+    }
+    .input-btn {
+        width: 50px !important;
+    }
+  }
