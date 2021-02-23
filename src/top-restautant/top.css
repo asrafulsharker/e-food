@@ -44,3 +44,14 @@
     position:relative;
     
 }
+@media only screen and (max-width: 380px) {
+    .card-img-rated{
+        margin-top: 10px !important;
+    }
+    .click-arrow{
+        margin-top:70px !important;
+    }
+    .top-top-p{
+        font-size:26px !important;
+    }
+  }

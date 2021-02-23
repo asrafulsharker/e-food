@@ -10,7 +10,7 @@ import './food.css';
 function food() {
     return (
         <div>
-            <div className="container" style={{padding:"50px 0px 50px 0px",background:"#FFF5EC"}}>
+            <div className="" style={{padding:"50px 20px 50px 20px",background:"#FFF5EC"}}>
                 <p className="food-p">Explore Our Foods</p>
                 <p className="food-sm-p m-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing cursus auctor eget sed phasellus senectus. Ut tellus donec vestibulum tristique leo bibendum in a, tincidunt. Volutpat metus id amet.</p>
                 <div className="row" style={{padding:"10px 0px 0px 0px"}}>

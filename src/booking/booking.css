@@ -43,3 +43,31 @@
     border:0;
     cursor: pointer;
 }
+@media only screen and (max-width: 1000px) {
+    .booking-search{
+        width: 450px;
+    }
+  }
+@media only screen and (max-width: 770px) {
+    .booking-search{
+        width: 300px;
+        height:45px;
+    }
+    .booking-search-btn{
+        height:45px;
+        width: 70px;
+        margin-left: -70px;
+    }
+}
+@media only screen and (max-width: 520px) {
+    .booking-search{
+        width: 260px;
+    }
+  }
+  
+
+  @media only screen and (max-width: 380px) {
+    .main-div-booking{
+        padding:13px !important;
+    }
+  }

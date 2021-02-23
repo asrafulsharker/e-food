@@ -26,3 +26,11 @@
     box-shadow: 0px 4px 4px rgba(235, 241, 245, 0.5);
     border-radius: 25px;
 }
+
+@media only screen and (max-width: 380px) {
+    .food-sm-p{
+        width: 315px !important;
+        padding-bottom: 20px !important;
+        height:140px !important;
+    }
+  }

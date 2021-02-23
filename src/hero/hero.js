@@ -18,8 +18,8 @@ function Hero() {
             <Nav1/>
             <div className="row">
             <div className="col-md-7">
-                <p style={{fontSize:"150px",color:"#f2f2eb",fontWeight:"bold",padding:"0px 50px 0px 50px"}}>Food</p>
-                <p style={{fontSize:"70px",lineHeight:"70px",padding:"0px 50px 0px 50px",color:"#05225c"}}>Discover Restaurant<br/>& Delicious Food</p>
+                <p className="food-p1" style={{fontSize:"150px",color:"#f2f2eb",fontWeight:"bold",padding:"0px 50px 0px 50px"}}>Food</p>
+                <p className="food-p2" style={{fontSize:"70px",lineHeight:"70px",padding:"0px 50px 0px 50px",color:"#05225c"}}>Discover Restaurant<br/>& Delicious Food</p>
                 <form style={{margin:"50px 0px 50px 0px",padding:"0px 50px 0px 50px"}}>
                 <input className="input-search" type="text" placeholder="Search Restaurant,Food"/>
                 <button className="input-btn" type="submit" style={{fontWeight:"bold"}} >GO</button>

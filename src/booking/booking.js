@@ -9,17 +9,19 @@ function booking() {
                     <input style={{border:"0"}} required className="booking-search" type="text" placeholder="Search restrurent"/>
                     <button className="booking-search-btn" type="submit">GO</button>
                     <br></br>
-                    <div className="row " style={{padding:"30px 250px"}}>
-                    <div className="date m-auto" style={{textAlign:"center"}}>
-                     <p style={{lineHeight:"2px" ,fontWeight:"bold"}}>Date</p>
-                 <input className="date-time" type="date" id="start" required 
-                    min="2021-01-01" max="2022-12-31"/>
+                    <div className="row col-md-8 m-auto" style={{padding:"50px 30px"}}>
+                    <div className="date m-auto col-md-4" style={{textAlign:"center",paddingTop:"10px"}}>
+                        
+                        <p style={{lineHeight:"2px" ,fontWeight:"bold"}}>Date</p>
+                            <input className="date-time" type="date" id="start" required 
+                            min="2021-01-01" max="2022-12-31"/>
+                        
                  </div>
-                    <div className="time m-auto" style={{textAlign:"center"}}>
+                    <div className="time m-auto col-md-4" style={{textAlign:"center" ,paddingTop:"10px"}}>
                         <p style={{lineHeight:"2px",fontWeight:"bold"}}>Time</p>
                         <input className="date-time" type="time" id="appt" name="appt"/>
                     </div>
-                    <div className="people m-auto" style={{textAlign:"center"}}>
+                    <div className="people m-auto col-md-4" style={{textAlign:"center",paddingTop:"10px"}}>
                     <p style={{lineHeight:"2px",fontWeight:"bold"}}>People</p>
                     <select className="date-time">
                     <option value="actual value 1">3 People</option>

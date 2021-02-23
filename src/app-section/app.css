@@ -30,3 +30,16 @@
     border-left: 15px solid red;
     padding-left:20px;
 }
+@media only screen and (max-width: 380px) {
+    .app-p{
+        font-size: 35px !important;
+        width:420px;
+    }
+    .app-sm-p {
+        width: 330px !important;
+        height: 130px;
+    }
+    .app-app{
+        width:100px !important;
+    }
+  }
