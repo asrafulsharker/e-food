@@ -70,9 +70,21 @@
     .main-div-booking{
         padding:13px !important;
     }
+    .booking-search{
+        font-size:15px !important;
+    }
+    .booking-search-btn{
+        font-size:20px !important;
+    }
   }
   @media only screen and (max-width: 960px) {
     .main-div-booking{
         padding:13px !important;
+    }
+    .booking-search{
+        font-size:15px !important;
+    }
+    .booking-search-btn{
+        font-size:20px !important;
     }
   }
