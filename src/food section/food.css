@@ -1,0 +1,26 @@
+.food-p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 62px;
+    /* or 129% */
+    align-items: center;
+    text-transform: capitalize;
+    color: #2E266F;
+    text-align: center;
+}
+.food-sm-p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.food-card{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(235, 241, 245, 0.5);
+    border-radius: 25px;
+}

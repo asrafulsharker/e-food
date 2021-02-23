@@ -12,8 +12,7 @@ function booking() {
                     <div className="row " style={{padding:"30px 250px"}}>
                     <div className="date m-auto" style={{textAlign:"center"}}>
                      <p style={{lineHeight:"2px" ,fontWeight:"bold"}}>Date</p>
-                 <input className="date-time" type="date" id="start" required name="trip-start"
-                    value="2021-01-01"
+                 <input className="date-time" type="date" id="start" required 
                     min="2021-01-01" max="2022-12-31"/>
                  </div>
                     <div className="time m-auto" style={{textAlign:"center"}}>
